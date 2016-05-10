@@ -1,0 +1,17 @@
+[
+  {
+    "url": "/index.json",
+    "path": "index.json",
+    "dir": "/"
+  },
+  {
+    "url": "/example-route1/index.json",
+    "path": "example-route1/index.json",
+    "dir": "/example-route1"
+  },
+  {
+    "url": "/example-route2/index.json",
+    "path": "example-route2/index.json",
+    "dir": "/example-route2"
+  }
+]
