@@ -1,6 +1,3 @@
----
----
-
 /* ==========================================================================
  * Naam: defa_data_bs4.es6
    ========================================================================== */
@@ -131,7 +128,7 @@ const defa_tpl_config_01 = {};
  * @description in welke map staan dan de images op Github.
  * @default ""images/""
  */
-const json_configuratie = {{ site.data.glint.configuratie | jsonify }};
+const json_configuratie = {"glint_site_testen":false,"glint_url_abs":"http://127.0.0.1:4857/","glint_url_rel":"","glint_path_klant_media":"images/","glint_path_tech_media":"images/","glint_path_icons":"icons/","glint_path_json":"json/","glint_path_css":"css/","glint_path_js_glint":"js/glint/","glint_path_js_vendor":"js/vendor/","glint_github_upload_yes":true,"glint_github_url_abs":"https://Quasimobi.github.io/","glint_github_path_json":"json/","glint_github_path_media":"images/"};
 /* ========================================================================== */
 /**
  * @name json_bedrijf
@@ -141,7 +138,7 @@ const json_configuratie = {{ site.data.glint.configuratie | jsonify }};
  * @default
  * @description gegevens van het bedrijf van de klant
  */
-const json_bedrijf = {{ site.data.bedrijf.basis.basis | jsonify }};
+const json_bedrijf = {"website_title":"Glint.mobi","company_name":"Candy Business","meta_description":"Glint professionele websites vallen op zodat je belangen centraal komen te staan.","meta_keywords":"bouwblokken, kunstenaars, fotografen, sneller gemaakt, jekyll, sass, goedkoper, ubuntu, jquery, gimp","jaar_copyright":"2019","adres_straat":"Candystreet","adres_huisnr":"2161","adres_postcode":"3056 AP","adres_plaats":"Rotterdam","adres_telefoon":"+31107142497","website_link":"http://www.centobytes.nl","email_tekst":"Informatie@CentoBytes.nl","email_link":"Informatie@CentoBytes.nl","form_actie":"http://formspree.io/Informatie@CentoBytes.nl","twitter_naam":"Bauke_Mobi"};
 /* ========================================================================== */
 /**
  * @name json_centobytes
@@ -151,7 +148,7 @@ const json_bedrijf = {{ site.data.bedrijf.basis.basis | jsonify }};
  * @default
  * @description mijn gegevens
  */
-const json_centobytes = {{ site.data.glint.centobytes | jsonify }};
+const json_centobytes = {"company_name":"Centobytes Informatisering","meta_keywords":"schitterend, schitteren, www.centobytes.nl, www.glint.mobi, Bauke_Mobi"};
 /* ========================================================================== */
 /**
  * @name full_path_rel_media

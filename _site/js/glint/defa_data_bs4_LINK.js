@@ -148,7 +148,7 @@ const json_bedrijf = {"website_title":"Glint.mobi","company_name":"Candy Busines
  * @default
  * @description mijn gegevens
  */
-const json_centobytes = {"glint_company_name":"Centobytes Informatisering","glint_meta_keywords":"schitterend, schitteren, www.centobytes.nl, www.glint.mobi, Bauke_Mobi"};
+const json_centobytes = {"company_name":"Centobytes Informatisering","meta_keywords":"schitterend, schitteren, www.centobytes.nl, www.glint.mobi, Bauke_Mobi"};
 /* ========================================================================== */
 /**
  * @name full_path_rel_media
