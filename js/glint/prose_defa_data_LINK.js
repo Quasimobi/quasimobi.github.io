@@ -1,0 +1,1 @@
+/home/bauke/Dropbox/bluefish/assets/lodash_bs4/default_bs4/repository/js/glint/prose_defa_data.es6

@@ -1,0 +1,28 @@
+{% comment %}
+<!-- ======================================================================= -->
+<!--
+  Locale Head omdat de aangeroepen CSS-en varieren.
+-->
+<!-- ======================================================================= -->
+{% endcomment %}
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.5/lodash.js" type="text/javascript"></script>
+{% if loc_site_testen %}
+  <script type="text/javascript" src="{{ loc_glint_url_rel }}{{ loc_path_js_glint }}defa_data_bs4_LINK.js"></script>
+  <script type="text/javascript" src="{{ loc_glint_url_rel }}{{ loc_path_js_glint }}loc_data_lavinia_01_git.js"></script>
+  <script type="text/javascript" src="{{ loc_glint_url_rel }}{{ loc_path_js_glint }}defa_biblio_bs4_LINK.js"></script>
+  <script type="text/javascript" src="{{ loc_glint_url_rel }}{{ loc_path_js_glint }}biblio_lavinia_bs3_LINK.js"></script>
+  <script type="text/javascript" src="{{ loc_glint_url_rel }}{{ loc_path_js_glint }}loc_biblio_lavinia_01_git.js"></script>
+{% else %}
+  <script type="text/javascript" src="{{ loc_glint_url_rel }}{{ loc_path_js_glint }}defa_data_bs4_LINK.js"></script>
+  <script type="text/javascript" src="{{ loc_glint_url_rel }}{{ loc_path_js_glint }}loc_data_lavinia_01_git.js"></script>
+  <script type="text/javascript" src="{{ loc_glint_url_rel }}{{ loc_path_js_glint }}defa_biblio_bs4_LINK.js"></script>
+  <script type="text/javascript" src="{{ loc_glint_url_rel }}{{ loc_path_js_glint }}loc_biblio_lavinia_01_git.js"></script>
+{% endif %}
+
+{% comment %}
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+{% endcomment %}
+

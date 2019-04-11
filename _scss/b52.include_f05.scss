@@ -1,0 +1,107 @@
+// -------------------------------------------------------------------------- ]]
+// -------------------------------------------------------------------------- ]]
+@import "../../../../../../Dropbox/bluefish/assets/scss/themes/bootxxie-3.3.7/default/theme.variables";
+//@import "../../../../../../Dropbox/bluefish/assets/scss/themes/bootswatch-3.3.7/slate/theme.variables";
+// -------------------------------------------------------------------------- ]]
+// -------------------------------------------------------------------------- ]]
+// Theme toevoeging op de algemene vars van f05.xxie_vars.scss
+@import "../../../../../../Dropbox/bluefish/assets/scss/themes/bootxxie-3.3.7/default/theme.xxie_vars.scss";
+//@import "../../../../../../Dropbox/bluefish/assets/scss/themes/bootswatch-3.3.7/slate/theme.xxie_vars.scss";
+// -------------------------------------------------------------------------- ]]
+$text_second_color:                              #6893BD;
+$body_second_bg:                                 #33495E;
+$link_second_color:                              red; 
+$link_second_hover_color:                        darken($link-second-color, 15%);
+// -------------------------------------------------------------------------- ]]
+// EVEN LATEN STAAN, PROBLEMEN BIJ BUTTON HELENA CONTENT_VAR
+$color-kuler-text-opacity:                       1.0; 
+$color-kuler-bg-opacity:                         0.9; 
+$color-kuler-first-lighten:                      10%; 
+$color-kuler-first-darken:                       30%;
+$color-kuler-second-lighten:                     10%; 
+$color-kuler-second-darken:                      30%;
+$color-kuler-third-lighten:                      6%;  
+$color-kuler-third-darken:                       30%;
+$color-kuler-fourth-lighten:                     10%; 
+$color-kuler-fourth-darken:                      30%;
+$color-kuler-fifth-lighten:                      6%;  
+$color-kuler-fifth-darken:                       30%;
+// -------------------------------------------------------------------------- ]]
+@import "../../../../../../Dropbox/bluefish/assets/scss/xxie-2.0/f05.xxie_vars.scss";
+// -------------------------------------------------------------------------- ]]
+@import "../../../../../../Dropbox/bluefish/assets/scss/migratie_4to3/h03.vars_bs4to3.scss";
+// -------------------------------------------------------------------------- ]]
+@import "../../../../../../Dropbox/bluefish/assets/scss/glint-4/g04.vars.scss";
+// -------------------------------------------------------------------------- ]]
+// Geef de base fontsize vast de BS4-waarde, nml 16px 
+$font-size-base:                                 16px;
+$carousel-control-font-size:                     40px;
+// -------------------------------------------------------------------------- ]]
+// Onderstaande vars moet ik in SCSS gebruiken.
+// Uiteindelijk moeten zij harde waarden krijgen
+$color_kuler_first:                              #000;
+$color_kuler_second:                             #000;
+$color_kuler_third:                              #000;
+$color_kuler_fourth:                             #000;
+$color_kuler_fifth:                              #000;
+// -------------------------------------------------------------------------- ]]
+// Opties voor de mixins en wijziging defa variabelen van f05.XXie.
+// Doordat de kleuren verschillen betreft helderheid
+// & moet de color meer of minder lichter of donkerder worden.
+//$xxie_block_41_helena_05_darken:                      40%;
+//$xxie_block_41_helena_07_darken:                      25%;
+$xxie_80_block_helena_kuler_1_darken:            30%;
+$xxie_80_block_helena_kuler_3_darken:            38%;
+$xxie_80_block_helena_kuler_4_darken:            30%;
+$xxie_80_block_helena_kuler_text_opacity:        1.0;
+$xxie_80_block_helena_kuler_bg_opacity:          1.0;
+// !!! Onderstaande geldt voor Contact en Advantage blocks.
+// Geen min-height bij phone.
+$phone_80_block_helena_content_min_height:       30px;
+// Geen min-height, dan iets meer padding
+$phone_80_block_helena_padding_bottom:           10px;
+$xxie_36_icon_helena_kuler_1_darken:             30%;
+$xxie_36_icon_helena_kuler_3_darken:             34%;
+$xxie_36_icon_helena_kuler_5_darken:             25%;
+$xxie_36_icon_helena_kuler_text_opacity:         1.0;
+// Minimale hoogte container.
+//$xxie_block_41_helena_min_height:                280px;
+$phone_80_block_helena_min_height:               280px;
+$phone_80_block_helena_border_radius:            5px;
+// Regelen achtergrondOpacity.
+$xxie_80_block_helena_black_text_opacity:        1.0;
+$xxie_80_block_helena_black_bg_opacity:          0.3;
+// Bij small display ruimte tussen de boven- en onderkant van de blocken.
+// ++ zodat ze niet aan elkaar plakken.
+$phone_80_block_helena_margin_bottom:            20px;
+// Kleur lijntje in de carousel.
+$xxie_14_carousel_block_01_lijntje_border_hex_color: $text-second-color;
+// -------------------------------------------------------------------------- ]]
+// Onderstaande var krijgt een defa-waarde, dit is de waarde bij oplevering.
+$xxie_55_imagescroll_21_border_radius_01:        4px;
+// -------------------------------------------------------------------------- ]]
+// BootStrap wijzigen.
+// Kleur van de menuOpties bij active en hover.
+// Gewoon de derde kleur van het BS pallet geven.
+// TODO oplossen
+$navbar-default-link-hover-color: #428bca;  //$xxie_pallet_color_03;
+// De fonts van Glyphicon moeten als bestand in de projectDir staan.
+// Ik wijzig het pad naar subdir fonts van de Stylesheets dir.
+$icon-font-path: "/fonts/" !default;
+// -------------------------------------------------------------------------- ]]
+// -------------------------------------------------------------------------- ]]
+// Extra buiten de standaard palletKleuren, betekenis projectAfhankelijk.
+// Het lijntje tussen de bladzijden (border-top en border-bottom).
+$xxie_pallet_color_91: #6893BD;
+// Achtergrond van de footer.
+$xxie_pallet_color_92: #202D3B;
+// -------------------------------------------------------------------------- ]]
+// -------------------------------------------------------------------------- ]]
+@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/mixins";
+// -------------------------------------------------------------------------- ]]
+@import "../../../../../../Dropbox/bluefish/assets/scss/xxie-2.0/f05.xxie_mixins.scss";
+@import "../../../../../../Dropbox/bluefish/assets/scss/glint-4/g04.mixins.scss";
+// -------------------------------------------------------------------------- ]]
+@import "../../../../../../Dropbox/bluefish/assets/scss/migratie_4to3/h03.mixins_bs4to3.scss";
+// -------------------------------------------------------------------------- ]]
+// -------------------------------------------------------------------------- ]]
