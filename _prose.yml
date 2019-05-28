@@ -21,7 +21,7 @@ prose:
           element: "text"
           label: "foto_bestand_label"
           help: "foto_bestand_help"
-          value: ""
+          value: "foto_bestand"
       - name: "foto_xl_alt"
         field:
           element: "text"
