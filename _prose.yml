@@ -22,7 +22,7 @@ prose:
           label: "foto_bestand_label"
           help: "foto_bestand_help"
           value: "foto_bestand"
-      - name: "foto_xl_alt"
+      - name: "foto_alt"
         field:
           element: "text"
           label: "foto_alt_label"
