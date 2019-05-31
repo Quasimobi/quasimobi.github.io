@@ -31,7 +31,7 @@ function snip_carousel_athena_51B_items_01(data_tpl_carousel, loc_path_klant_med
             <div class='row'>
               <div class='col-sm-4'>
                 <div class='carousel_athena_51B_block'>
-                  <%= loc_items.tekst %>
+                  <%= loc_items.foto_tekst %>
                 </div>
               </div>
             </div>
