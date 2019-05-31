@@ -1,10 +1,10 @@
 prose:
   rooturl: '_posts'
-  siteurl: 'https://quasimobi.github.io/'
+  siteurl: 'https://Quasimobi.github.io/'
   media: 'images'
   metadata:
     _posts/carousel_01:
-      - name: "tags"
+      - name: "tag"
         field:
           element: "hidden"
           value: "carousel_01"
@@ -19,14 +19,55 @@ prose:
       - name: "foto_bestand"
         field:
           element: "text"
-          label: "foto_bestand_label"
-          help: "foto_bestand_help"
-          value: "foto_bestand"
+          label: "label"
+          value: ""
+          help: "voor foto's tot 1200px (binnen de container)"
+     - name: "foto_alt"
+        field:
+          element: "text"
+          label: "label"
+          value: ""
+          help: "help"
+     - name: "foto_tekst"
+        field:
+          element: "text"
+          label: "tekst_label"
+          help: "help"
+          value: ""
+    _posts/block_01:
+      - name: "tag"
+        field:
+          element: "hidden"
+          value: "block_01"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          help: "Uncheck to make this post hidden.</br>ieuwe regel<br>ik weet het niet meer"
+          value: true
+          on: "true"
+          off: "false"
+      - name: "kop"
+        field:
+          element: "text"
+          label: "label"
+          value: "value"
+          help: "help"        
+      - name: "foto_bestand"
+        field:
+          element: "text"
+          label: "label"
+          value: ""
+          help: "voor foto's tot 768px"
       - name: "foto_alt"
         field:
           element: "text"
-          label: "foto_alt_label"
-          help: "foto_alt_help"
-          value: "alt_value"
-
-
+          label: "label"
+          value: ""
+          help: "help"
+      - name: "tekst"
+        field:
+          element: "text"
+          label: "label"
+          help: "help"
+          value: "value"
