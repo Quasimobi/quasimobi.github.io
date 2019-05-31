@@ -1,10 +1,10 @@
 prose:
   rooturl: '_posts'
-  siteurl: 'https://Quasimobi.github.io/'
+  siteurl: 'https://quasimobi.github.io/'
   media: 'images'
   metadata:
     _posts/carousel_01:
-      - name: "tag"
+      - name: "tags"
         field:
           element: "hidden"
           value: "carousel_01"
@@ -19,19 +19,13 @@ prose:
       - name: "foto_bestand"
         field:
           element: "text"
-          label: "label"
-          value: ""
-          help: "voor foto's tot 1200px (binnen de container)"
-     - name: "foto_alt"
+          label: "foto_bestand_label"
+          help: "foto_bestand_help"
+          value: "foto_bestand"
+      - name: "foto_alt"
         field:
           element: "text"
-          label: "label"
-          value: ""
-          help: "help"
-     - name: "foto_tekst"
-        field:
-          element: "text"
-          label: "tekst_label"
-          help: "help"
-          value: ""
-  
+          label: "foto_alt_label"
+          help: "foto_alt_help"
+          value: "alt_value"
+          
