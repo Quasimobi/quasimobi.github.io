@@ -34,40 +34,4 @@ prose:
           label: "tekst_label"
           help: "help"
           value: ""
-    _posts/block_01:
-      - name: "tag"
-        field:
-          element: "hidden"
-          value: "block_01"
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Published"
-          help: "Uncheck to make this post hidden.</br>ieuwe regel<br>ik weet het niet meer"
-          value: true
-          on: "true"
-          off: "false"
-      - name: "kop"
-        field:
-          element: "text"
-          label: "label"
-          value: "value"
-          help: "help"        
-      - name: "foto_bestand"
-        field:
-          element: "text"
-          label: "label"
-          value: ""
-          help: "voor foto's tot 768px"
-      - name: "foto_alt"
-        field:
-          element: "text"
-          label: "label"
-          value: ""
-          help: "help"
-      - name: "tekst"
-        field:
-          element: "text"
-          label: "label"
-          help: "help"
-          value: "value"
+  
