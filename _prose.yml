@@ -4,7 +4,7 @@ prose:
   media: 'images'
   metadata:
     _posts/carousel_01:
-      - name: "tag"
+      - name: "tags"
         field:
           element: "hidden"
           value: "carousel_01"
