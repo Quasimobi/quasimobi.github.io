@@ -2,7 +2,8 @@
 tag: carousel_01
 published: true
 foto_bestand: foto_bestand_dikke
-foto_xl_alt: alt_value_dikke
+foto_alt: alt_value_dikke
+foto_tekst: de tekst op de foto
 ---
 ## A New Post
 
