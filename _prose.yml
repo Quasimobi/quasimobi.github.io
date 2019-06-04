@@ -76,6 +76,14 @@ prose:
         field:
           element: "hidden"
           value: "openingstijd_01"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          help: "Uncheck to make this post hidden.</br>ieuwe regel<br>ik weet het niet meer"
+          value: true
+          on: "true"
+          off: "false"          
       - name: "multi_select"
         field:
           element: "select"
