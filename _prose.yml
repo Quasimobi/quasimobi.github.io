@@ -71,7 +71,7 @@ prose:
           label: "tekst_label"
           help: "help"
           value: ""       
-      - name: "tags"
+      - name: "multi_select"
         field:
           element: "multiselect"
           label: "Add Tags"
