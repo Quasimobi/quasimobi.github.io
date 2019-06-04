@@ -70,18 +70,22 @@ prose:
           element: "text"
           label: "tekst_label"
           help: "help"
-          value: ""       
+          value: ""     
+    _posts/openinstijden:
+      - name: "tags"
+        field:
+          element: "hidden"
+          value: "openingstijd_01"
       - name: "multi_select"
         field:
           element: "select"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
+          label: "Openingstijd"
+          placeholder: "Kies een tijd"
           options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
-            - name: "Pears"
-              value: "pears"
-            - name: "Mangos"
-          value: "mangos"
+            - name: "Standaard"
+              value: "standaard"
+            - name: "Vakantie"
+              value: "vakantie"
+            - name: "Kerstmis"
+              value: "kerstmis"
+
