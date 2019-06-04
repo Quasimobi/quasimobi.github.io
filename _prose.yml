@@ -28,6 +28,12 @@ prose:
           label: "foto_alt_label"
           help: "foto_alt_help"
           value: "alt_value"
+      - name: "foto_tekst"
+        field:
+          element: "text"
+          label: "tekst_label"
+          help: "help"
+          value: ""          
     _posts/block_01:
       - name: "tag"
         field:
