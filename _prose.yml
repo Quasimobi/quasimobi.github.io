@@ -68,6 +68,6 @@ prose:
       - name: "tekst"
         field:
           element: "text"
-          label: "label"
+          label: "tekst_label"
           help: "help"
-          value: "value"          
+          value: ""       
