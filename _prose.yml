@@ -35,7 +35,7 @@ prose:
           help: "help"
           value: ""          
     _posts/block_01:
-      - name: "tag"
+      - name: "tags"
         field:
           element: "hidden"
           value: "block_01"
@@ -56,15 +56,15 @@ prose:
       - name: "foto_bestand"
         field:
           element: "text"
-          label: "label"
-          value: ""
-          help: "voor foto's tot 768px"
+          label: "foto_bestand_label"
+          help: "foto_bestand_help"
+          value: "foto_bestand"
       - name: "foto_alt"
         field:
           element: "text"
-          label: "label"
-          value: ""
-          help: "help"
+          label: "foto_alt_label"
+          help: "foto_alt_help"
+          value: "alt_value"
       - name: "tekst"
         field:
           element: "text"
