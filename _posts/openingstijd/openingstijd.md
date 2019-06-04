@@ -1,6 +1,5 @@
 ---
 tags: openingstijd_01
-published: false
+published: true
 multi_select: vakantie
 ---
-
