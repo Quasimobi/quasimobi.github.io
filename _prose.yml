@@ -71,3 +71,9 @@ prose:
           label: "tekst_label"
           help: "help"
           value: ""       
+      - name: "content"
+        field:
+          element: "text"
+          label: "contentie"
+          help: "help_content"
+          value: "Niet invullen"            
