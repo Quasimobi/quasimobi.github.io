@@ -71,7 +71,7 @@ prose:
           label: "tekst_label"
           help: "help"
           value: ""     
-    _posts/openinstijden:
+    _posts/openingstijd:
       - name: "tags"
         field:
           element: "hidden"
@@ -88,4 +88,3 @@ prose:
               value: "vakantie"
             - name: "Kerstmis"
               value: "kerstmis"
-
