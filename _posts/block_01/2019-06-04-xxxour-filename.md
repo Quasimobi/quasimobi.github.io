@@ -4,6 +4,7 @@ published: true
 kop: valuxxx
 foto_bestand: foto_bestand
 foto_alt: alt_value
+multi_select: bananas
 ---
 ## A New Post
 
