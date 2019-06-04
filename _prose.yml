@@ -3,12 +3,6 @@ prose:
   siteurl: 'https://quasimobi.github.io/'
   media: 'images'
   metadata:
-    _posts:
-      - name: "title"
-        field:
-          element: "tXXext"
-          label: "tXXitle"
-          value: "valueXXX"
     _posts/carousel_01:
       - name: "tags"
         field:
@@ -79,7 +73,7 @@ prose:
           value: ""       
       - name: "multi_select"
         field:
-          element: "multiselect"
+          element: "select"
           label: "Add Tags"
           placeholder: "Choose Tags"
           options:
