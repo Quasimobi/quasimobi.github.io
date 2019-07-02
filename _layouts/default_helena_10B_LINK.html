@@ -1,1 +1,85 @@
-/home/bauke/Dropbox/bluefish/assets/jekyll_bs3/default_bs3/helena_defa/_layouts/default_helena_10B.html
+{% comment %}
+<!-- ======================================================================= -->
+<!--
+  Naam: default_helena_10B.html
+-->
+<!-- ======================================================================= -->
+{% endcomment %}
+
+<!-- Voeg variabelen uit de data-directory toe -->
+{% include default_helena_10B_var_LINK.html %}
+
+<!DOCTYPE html>
+<html lang='nl'>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.website_title %}{{ page.website_title }}{% else %}{{ loc_website_title }}{% endif %}</title>
+    <link rel="shortcut icon" href="{{ loc_url_rel }}{{ loc_path_icons }}favicon.ico">
+    <meta name="description" content="{{ loc_meta_description }}">
+    <meta name="keywords" lang="nl" content="{{loc_meta_keywords_bedrijf}},{{loc_meta_keywords_glint}}">
+    <meta name="author" content="content: {{ loc_company_name_bedrijf }},website-kode: {{loc_company_name_glint}}">
+
+    {% comment %}
+    <!-- Valid values for the "CONTENT" attribute are: "INDEX", "NOINDEX", "FOLLOW", "NOFOLLOW".  -->
+    <!-- Ik zet deze voorlopig op de default: INDEX en FOLLOW.  -->
+    {% endcomment %}
+    <meta name="robots" content="{{ loc_meta_robots}}">
+
+    <!-- Grote icons weggehaald, 08-jan-2019 -->
+
+    {% if loc_site_testen %}
+      {% comment %}<!-- Speciale Bootstrap voor dit project -->{% endcomment %}
+      <link rel="stylesheet" href="{{ loc_url_rel }}{{ loc_path_css }}glint_strap.css">
+      {% comment %}<!-- Alle benodigde CSS van de onderdelen. -->{% endcomment %}
+      <link rel="stylesheet" href="{{ loc_url_rel }}{{ loc_path_css }}glint_blok.css">
+      {% comment %}<!-- Eventuele aanvulling op de standaardOnderdelen. -->{% endcomment %}
+      <link rel="stylesheet" href="{{ loc_url_rel }}{{ loc_path_css }}glint_detail.css">
+      {% comment %}<!-- Voeg FontAwesome toe. -->{% endcomment %}
+      <link rel="stylesheet" href="{{ loc_url_rel }}{{ loc_path_css }}font-awesome.min.css">
+    {% else %}
+      {% comment %}<!-- Bovenstaande CSS-en samengevoegd. -->{% endcomment %}
+      <link rel="stylesheet" href="{{ loc_url_rel }}{{ loc_path_css }}glint_deploy.css">
+    {% endif %}
+
+    {% include loc_head_defa_10.html %}
+
+  </head>
+
+  <body>
+    <a name="blok_link_top_page"></a>
+    <noscript>
+      <div class="block_noscript_61">
+        <p>
+          Om deze site optimaal te gebruiken is het noodzakelijk om Javascript aan te zetten.<br>
+          <a href="https://www.enable-javascript.com/nl/" target="_blank">
+          Hier vind je instructies over hoe u Javascript activeert in uw web browser</a>.
+        </p>
+      </div>
+    </noscript>
+
+    <!--[if lt IE 11]>
+      <div class="block_oudeIE_62">
+        <p>
+          Deze site komt het beste tot zijn recht met een meer recentere versie van Internet Explorer.<br>
+          Bezoek a.u.b. <a href="http://browsehappy.com/">upgrade uw browser</a> voor een betere beleving.
+        </p>
+      </div>
+    <![endif]-->
+
+    <!-- =================< START YIELD >======================================= -->
+    {{ content }}
+    <!-- =================< EINDE YIELD >======================================= -->
+
+    {% include loc_foot_defa_10.html %}
+
+  </body>
+
+</html>
+
+{% comment %}
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+{% endcomment %}
