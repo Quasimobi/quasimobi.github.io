@@ -1,0 +1,230 @@
+
+
+<!-- Voeg variabelen uit de data-directory toe -->
+
+
+<!-- Vars uit data.glint.configuratie -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Vars uit data.glint.centobytes -->
+
+
+
+<!-- Vars uit data.basis.basis -->
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang='nl'>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Glint.mobi</title>
+    <link rel="shortcut icon" href="icons/favicon.ico">
+    <meta name="description" content="Glint professionele websites vallen op zodat je belangen centraal komen te staan.">
+    <meta name="keywords" lang="nl" content="bouwblokken, kunstenaars, fotografen, sneller gemaakt, jekyll, sass, goedkoper, ubuntu, jquery, gimp,schitterend, schitteren, www.centobytes.nl, www.glint.mobi, Bauke_Mobi">
+    <meta name="author" content="content: Centobytes Informatisering,website-kode: Centobytes Informatisering">
+
+    
+    <meta name="robots" content="INDEX, FOLLOW">
+
+    <!-- Grote icons weggehaald, 08-jan-2019 -->
+
+    
+      
+      <link rel="stylesheet" href="css/glint_deploy.css">
+    
+
+    
+
+<script type="text/javascript" src="js/vendor/template-web.js"></script>
+<script>
+   template.defaults.escape= false;
+</script>
+
+
+  <script type="text/javascript" src="js/glint/defa_data_bs4.js"></script>
+  <script type="text/javascript" src="js/glint/loc_data_quasimobi.js"></script>
+  <script type="text/javascript" src="js/glint/loc_biblio_quasimobi_es5.js"></script>
+
+
+
+
+
+
+  </head>
+
+  <body>
+    <a name="blok_link_top_page"></a>
+    <noscript>
+      <div class="block_noscript_61">
+        <p>
+          Om deze site optimaal te gebruiken is het noodzakelijk om Javascript aan te zetten.<br>
+          <a href="https://www.enable-javascript.com/nl/" target="_blank">
+          Hier vind je instructies over hoe u Javascript activeert in uw web browser</a>.
+        </p>
+      </div>
+    </noscript>
+
+    <!--[if lt IE 11]>
+      <div class="block_oudeIE_62">
+        <p>
+          Deze site komt het beste tot zijn recht met een meer recentere versie van Internet Explorer.<br>
+          Bezoek a.u.b. <a href="http://browsehappy.com/">upgrade uw browser</a> voor een betere beleving.
+        </p>
+      </div>
+    <![endif]-->
+
+    <!-- =================< START YIELD >======================================= -->
+    
+
+<!-- ===================< NAVBAR >========================================== -->
+<div class="wrapper_navbar_lavinia_01_01">
+  <div id="id_navbar_lavinia_0102"></div>
+    
+
+<div class='navbar navbar-default navbar_lavinia_01B navbar-fixed-top navbar_color_scroll'>
+        <div class="container">
+          <div class='navbar-header'>
+            <button class='navbar-toggle' data-target='.navbar-collapse' data-toggle='collapse' type='button'>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+            </button>
+            <a class='navbar-brand' href='index.html'>Glint Mobi websites</a>
+          </div>
+          <div class='navbar-collapse collapse'>
+            <ul class='nav navbar-nav'>
+            
+      
+        
+          <li>
+        
+          <a href='index.html'>Home</a>
+        </li>
+      
+        
+          <li class='active'>
+        
+          <a href='carousel.html'>Carousel</a>
+        </li>
+      
+        
+          <li>
+        
+          <a href='blocken.html'>Blocken</a>
+        </li>
+      
+  
+    
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+  
+</div>
+
+<!-- ==================< REFERENTIES >====================================== -->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="wrapper_carousel_athena_51_01">
+        <div id="id_carousel_athena_0107"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  /* 
+    Afhankelijk van de waarde json_configuratie.glint_github_upload_yes
+    wordt bij true dooregeven: json_configuratie.glint_github_url_abs+json_configuratie.glint_path_json
+    OF bij false full_path_abs_json
+  */
+  let loc_url_json = get_github_url_01();
+  get_github_json_01(loc_url_json+"carousels_01.json", function(error, data) {
+    if (error) {
+      log_error_01("get_github_json_01", error);
+    } else {
+      var tpl_config_0107       = json_config_carousel_github_01;
+      var snip_items_0107       = snip_carousel_athena_51B_items_01(data.carousels, full_path_rel_media);
+      var snip_controls_0107    = snip_carousel_athena_51B_controls(tpl_config_0107);
+      var render_carousel_0107  = render_carousel_athena_51B(tpl_config_0107, data, snip_items_0107, snip_controls_0107);
+      render_template_01("id_carousel_athena_0107", render_carousel_0107);
+    }
+  });
+</script>
+
+<!-- ==================< FOOTER >=========================================== -->
+
+
+<div class="wrapper_footer_lavinia_11_01">
+    <div id="id_footer_01"></div>
+    
+    <script>
+        let loc_url_json_02 = get_github_url_01();
+        get_github_json_01(loc_url_json_02+"openingstijd.json", function(error, data) {
+        if (error) {
+          log_error_01("get_github_json_01", error);
+        } else {
+          let json_openings    = loc_block_lavinia_footer_11G_openings_get(data.openingstijd[0].vakantie_tijd);
+          snip_footer_33       = block_lavinia_footer_11G_openings(json_openings);
+          let snip_footer_31   = block_lavinia_footer_11G_adres();
+          let snip_footer_32   = block_lavinia_footer_11G_contact_02();
+          let render_footer_11 = render_footer_lavinia_11G(snip_footer_31, snip_footer_32, snip_footer_33, "contact");
+          render_template_01("id_footer_01", render_footer_11);          
+        }
+    });        
+    </script>
+    
+</div>
+
+
+
+
+
+
+    <!-- =================< EINDE YIELD >======================================= -->
+
+    
+
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="js/vendor/jquery.min_bs3_LINK.js"></script>
+<script type="text/javascript" src="js/vendor/bootstrap.min_bs3_LINK.js"></script>
+
+
+
+
+  </body>
+
+</html>
+
+
