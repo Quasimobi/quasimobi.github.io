@@ -5,6 +5,10 @@
         "kop":          "Ratione 05",
         "foto_bestand": "slide-12.jpg",
         "foto_alt":     "alt_value",
+<<<<<<< HEAD:json/blocken_01.json
+=======
+        "tekst":        "",
+>>>>>>> 9f29a787b40596aad8892c83efe86bf856b7e179:json/blocks_01.json
         "url":          "/2018/08/04/block35.html",
         "tekst":      "<p>Temporibus non sunt nobis eos vel aut Ea aut ea dolorum pariatur dolores quam sapiente quod iusto et quibusdam qui molestias optio</p><p>Quam nesciunt id molestias aut iure et optio hic quibusdam fugit adipisci eaque Inventore sit minus quas voluptas omnis beatae</p>"    
       } ,
@@ -13,32 +17,12 @@
         "kop":          "Ratione 04",
         "foto_bestand": "slide-11.jpg",
         "foto_alt":     "alt_value",
+<<<<<<< HEAD:json/blocken_01.json
+=======
+        "tekst":        "",
+>>>>>>> 9f29a787b40596aad8892c83efe86bf856b7e179:json/blocks_01.json
         "url":          "/2018/08/04/block34.html",
         "tekst":      "<p>Placeat molestiae numquam qui et <br />Nisi maxime esse et numquam eos est iure soluta accusantium aut</p><p>Sit expedita omnis corporis voluptatem debitis est quia et sit <br />quos pariatur quis odio Aut est et eius</p>"    
-      } ,
-    
-      { 
-        "kop":          "Ratione 03",
-        "foto_bestand": "slide-13.jpg",
-        "foto_alt":     "alt_value",
-        "url":          "/2018/08/04/block33.html",
-        "tekst":      "<p>Voluptas temporibus accusamus esse magni voluptas deleniti reiciendis aperiam quidem eveniet.  beatae eligendi autem rerum vero aliquam.</p><p>Autem aperiam magnam aut labore cumque explicabo laudantium architecto est. enim ipsam est et non harum veniam natus suscipit delectus qui et.”</p>"    
-      } ,
-    
-      { 
-        "kop":          "Ratione 02",
-        "foto_bestand": "slide-12.jpg",
-        "foto_alt":     "alt_value",
-        "url":          "/2018/08/04/block32.html",
-        "tekst":      "<p>Facere quos officia dolores neque nobis asperiores Quas ea et est impedit</p><p>Dignissimos eaque eum labore qui dignissimos excepturi consequatur quis ut maxime qui qui voluptates Omnis aspernatur minus debitis aperiam quia itaque est amet et voluptatem dolorum maiores.</p>"    
-      } ,
-    
-      { 
-        "kop":          "Ratione 01",
-        "foto_bestand": "slide-11.jpg",
-        "foto_alt":     "alt_value",
-        "url":          "/2018/08/04/block31.html",
-        "tekst":      "<p>Amet esse delectus molestiae ut sint aut doloribus blanditiis delectus sit explicabo aspernatur quos Ipsa omnis aliquam dolorem et excepturi reiciendis est laudantium autem corrupti aperiam.</p><p>Nihil totam repellendus quas harum sapiente sint saepe iure autem commodi.</p>"    
       } 
     
   ]
