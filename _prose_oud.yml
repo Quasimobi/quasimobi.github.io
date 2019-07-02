@@ -1,0 +1,100 @@
+prose:
+  rooturl: '_posts'
+  siteurl: 'https://quasimobi.github.io/'
+  media: 'images'
+  metadata:
+    _posts/carousel_01:
+      - name: "tags"
+        field:
+          element: "hidden"
+          value: "carousel_01"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          help: "Uncheck to make this post hidden.</br>ieuwe regel<br>ik weet het niet meer"
+          value: true
+          on: "true"
+          off: "false"
+      - name: "foto_bestand"
+        field:
+          element: "text"
+          label: "foto_bestand_label"
+          help: "foto_bestand_help"
+          value: "foto_bestand"
+      - name: "foto_alt"
+        field:
+          element: "text"
+          label: "foto_alt_label"
+          help: "foto_alt_help"
+          value: "alt_value"
+      - name: "foto_tekst"
+        field:
+          element: "text"
+          label: "tekst_label"
+          help: "help"
+          value: ""          
+    _posts/block_01:
+      - name: "tags"
+        field:
+          element: "hidden"
+          value: "block_01"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          help: "Uncheck to make this post hidden.</br>ieuwe regel<br>ik weet het niet meer"
+          value: true
+          on: "true"
+          off: "false"
+      - name: "kop"
+        field:
+          element: "text"
+          label: "label"
+          value: "value"
+          help: "help"        
+      - name: "foto_bestand"
+        field:
+          element: "text"
+          label: "foto_bestand_label"
+          help: "foto_bestand_help"
+          value: "foto_bestand"
+      - name: "foto_alt"
+        field:
+          element: "text"
+          label: "foto_alt_label"
+          help: "foto_alt_help"
+          value: "alt_value"
+      - name: "tekst"
+        field:
+          element: "text"
+          label: "tekst_label"
+          help: "help"
+          value: ""     
+    _posts/openingstijd:
+      - name: "tags"
+        field:
+          element: "hidden"
+          value: "openingstijd_01"
+      - name: "published"
+field:
+          element: "checkbox"
+          label: "Published"
+          help: "Uncheck to make this post hidden.</br>ieuwe regel<br>ik weet het niet meer"
+          value: true
+          on: "true"
+          off: "false"          
+      - name: "multi_select"
+        field:
+          element: "select"
+          label: "Openingstijd"
+          placeholder: "Kies een tijd"
+          options:
+            - name: "Standaard"
+              value: "standaard"
+            - name: "Vakantie"
+              value: "vakantie"
+            - name: "Kerstmis"
+              value: "kerstmis"
+
+
