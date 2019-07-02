@@ -1,7 +1,7 @@
 
 prose:
   rooturl: '_posts'
-  siteurl: 'https://Quasimobi.github.io/'
+  siteurl: 'https://quasimobi.github.io/'
   media: 'images'
   metadata:
     _posts/carousels_01:
