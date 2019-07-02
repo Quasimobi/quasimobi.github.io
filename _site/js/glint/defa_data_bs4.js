@@ -128,7 +128,7 @@ const defa_tpl_config_01 = {};
  * @description in welke map staan dan de images op Github.
  * @default ""images/""
  */
-const json_configuratie = {"glint_site_testen":false,"glint_url_abs":"http://127.0.0.1:4857/","glint_url_rel":"","glint_meta_robots":"INDEX, FOLLOW","glint_merk_tekst":"Glint Mobi websites","glint_merk_link":"index.html","glint_path_klant_media":"images/","glint_path_tech_media":"images/","glint_path_icons":"icons/","glint_path_json":"json/","glint_path_css":"css/","glint_path_js_glint":"js/glint/","glint_path_js_vendor":"js/vendor/","glint_github_upload_yes":true,"glint_github_url_abs":"https://Quasimobi.github.io/","glint_github_path_json":"json/","glint_github_path_media":"images/"};
+const json_configuratie = {"glint_site_testen":false,"glint_url_abs":"http://127.0.0.1:4857/","glint_url_rel":"","glint_meta_robots":"INDEX, FOLLOW","glint_merk_tekst":"Glint Mobi websites","glint_merk_link":"index.html","glint_path_klant_media":"images/","glint_path_tech_media":"images/","glint_path_icons":"icons/","glint_path_json":"json/","glint_path_css":"css/","glint_path_js_glint":"js/glint/","glint_path_js_vendor":"js/vendor/","glint_github_upload_yes":true,"glint_github_url_abs":"https://quasimobi.github.io/","glint_github_path_json":"json/","glint_github_path_media":"images/"};
 /* ========================================================================== */
 /**
  * @name json_bedrijf

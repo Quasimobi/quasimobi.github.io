@@ -17,7 +17,7 @@ glint_path_css:                    "css/"
 glint_path_js_glint:               "js/glint/"
 glint_path_js_vendor:              "js/vendor/"
 glint_github_upload_yes:           true
-glint_github_url_abs:              "https://Quasimobi.github.io/"
+glint_github_url_abs:              "https://quasimobi.github.io/" 
 glint_github_path_json:            "json/"
 glint_github_path_media:           "images/"
 # ==============================================================================
