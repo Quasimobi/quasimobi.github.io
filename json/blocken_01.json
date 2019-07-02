@@ -8,10 +8,6 @@
         "kop":          "{{ post.kop }}",
         "foto_bestand": "{{ post.foto_bestand }}",
         "foto_alt":     "{{ post.foto_alt }}",
-<<<<<<< HEAD:json/blocken_01.json
-=======
-        "tekst":        "{{ post.tekst }}",
->>>>>>> 9f29a787b40596aad8892c83efe86bf856b7e179:json/blocks_01.json
         "url":          "{{ post.url }}",
         "tekst":      "{{ post.content | replace: '"', "'" | strip_newlines }}"    
       } {% unless forloop.last %},{% endunless%}
