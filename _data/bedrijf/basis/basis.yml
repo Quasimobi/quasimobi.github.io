@@ -1,22 +1,19 @@
 # ==============================================================================
 # ==============================================================================
 website_title:          "Glint.mobi"          # klant website-titel
-company_name:           "Candy Business"         # bedrijfsnaam klant
+company_name:           "Centobytes Informatisering"         # bedrijfsnaam klant
 meta_description:       "Glint professionele websites vallen op zodat je belangen centraal komen te staan."
 meta_keywords:          "bouwblokken, kunstenaars, fotografen, sneller gemaakt, jekyll, sass, goedkoper, ubuntu, jquery, gimp"
 jaar_copyright:         "2019"  # bijv. het jaar van de copyright wordt in sommige footers getoond.
 # ==============================================================================
-adres_straat:           "Candystreet"
-adres_huisnr:           "2161"
-adres_postcode:         "3056 AP"
+adres_straat:           "Honingerdijk"
+adres_huisnr:           "3-B"
+adres_postcode:         "3063 AH"
 adres_plaats:           "Rotterdam"
-adres_telefoon:         "+31107142497"
+adres_telefoon:         "0107142497"
 # ==============================================================================
-website_link:           "http://www.centobytes.nl"    # link naar de website van de klant
+website_link:           "http://www.centobytes.nl" 
 email_tekst:            "Informatie@CentoBytes.nl"
 email_link:             "Informatie@CentoBytes.nl"
-form_actie:             "http://formspree.io/Informatie@CentoBytes.nl"
-# ==============================================================================
-twitter_naam:           "Bauke_Mobi"
 # ==============================================================================
 # ==============================================================================

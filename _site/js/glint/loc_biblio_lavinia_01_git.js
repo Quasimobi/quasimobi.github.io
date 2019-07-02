@@ -75,15 +75,16 @@ function generate_prose_01(json_configuratie) {
         _posts/carousel_01:
           ${prose_add_tag_01("carousel_01")}
           ${prose_published_01()}
-          ${prose_carousel_athena_51G_01_foto_xl_bestand()}
-          ${prose_carousel_athena_51G_01_foto_xl_alt()}
-          ${prose_carousel_athena_51G_01_tekst()}
+          ${prose_carousel_athena_51_foto_bestand()}
+          ${prose_carousel_athena_51_foto_alt()}
+          ${prose_carousel_athena_51_foto_tekst()}
         _posts/block_01:
           ${prose_add_tag_01("block_01")}
           ${prose_published_01()}
-          ${prose_athena_block_01_kop()}
-          ${prose_athena_block_01_foto_md_bestand()}
-          ${prose_athena_block_01_foto_md_alt()}
+          ${prose_block_athena_01_kop()}
+          ${prose_block_athena_01_foto_bestand()}
+          ${prose_block_athena_01_foto_alt()}
+          ${prose_block_athena_01_tekst()}          
   `;
 
   return tpl_gen_prose;

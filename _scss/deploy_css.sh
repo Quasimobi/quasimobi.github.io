@@ -2,10 +2,10 @@
 server_naar="../css" 
 
 echo = START WISSEN FILES DEVELOPMENT  =========================================
-rm -f ../css/glint_boot.css
+rm -f ../css/glint_strap.css
 rm -f ../css/glint_blok.css
 rm -f ../css/glint_detail.css
-rm -f ../css/glint_boot.css.map
+rm -f ../css/glint_strap.css.map
 rm -f ../css/glint_blok.css.map
 rm -f ../css/glint_detail.css.map
 echo = EINDE WISSEN FILES DEVELOPMENT  =========================================

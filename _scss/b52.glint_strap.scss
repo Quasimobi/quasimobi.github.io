@@ -9,7 +9,7 @@
 // -------------------------------------------------------------------------- ]]
 // Reset
 @import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/normalize";
-@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/print";
+//@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/print";
 
 // Core CSS
 @import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/scaffolding";
@@ -25,26 +25,26 @@
 @import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/component-animations";
 //@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/dropdowns";
 //@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/button-groups";
-@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/input-groups";
+//@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/input-groups";
 @import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/navs";
 @import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/navbar";
 //@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/breadcrumbs";
 //@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/pagination";
-@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/pager";
+//@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/pager";
 //@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/labels";
 //@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/badges";
-//@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/jumbotron";
+@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/jumbotron";
 
 
-@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/thumbnails";
-@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/alerts";
+//@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/thumbnails";
+//@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/alerts";
 //@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/progress-bars";
 @import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/media";
 //@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/list-group";
 //@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/panels";
 //NIET TOEVOEGEN, Zie migratie @import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/responsive-embed";
-@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/wells";
-@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/close";
+//@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/wells";
+//@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/close";
 
 // Components w/ JavaScript
 //@import "../../../../../../Dropbox/bluefish/assets/scss/bootstrap-3.3.7/modals";

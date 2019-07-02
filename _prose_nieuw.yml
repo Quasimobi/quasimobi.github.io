@@ -1,0 +1,106 @@
+
+    prose:
+      rooturl: '_posts'
+      siteurl: 'https://Quasimobi.github.io/'
+      media: 'images'
+      metadata:
+        _posts/carousels_01:
+          
+    - name: "tags"
+      field:
+        element: "hidden"
+        value: "carousel_01"
+  
+          
+    - name: "published"
+      field:
+        element: "checkbox"
+        label: "Published"
+        help: "Haal de vink dit vakje weg wanneer deze post nog niet meedoet."
+        value: true
+        on: "true"
+        off: "false"
+  
+          
+    - name: "foto_bestand"
+      field:
+        element: "text"
+        label: "Naam bestand v/d afbeelding (vergeet het achtervoegsel niet)"
+        value: ""
+        help:  "Voor afbeeldingen met een breedte van ongeveer 1400px"
+  
+          
+    - name: "foto_alt"
+      field:
+        element: "text"
+        label: "Alternatieve naam van de afbeelding"
+        value: ""
+        help: "Deze naam wordt soms getoond als alternatief voor de afbeelding"
+  
+          
+    - name: "foto_tekst"
+      field:
+        element: "text"
+        label: "Tekst die op de afbeelding geplaatst wordt"
+        help:  "Maak deze tekst niet lang, maximaal 60 karakters"
+        value: ""
+  
+        _posts/blocken_01:
+          
+    - name: "tags"
+      field:
+        element: "hidden"
+        value: "block_01"
+  
+          
+    - name: "published"
+      field:
+        element: "checkbox"
+        label: "Published"
+        help: "Haal de vink dit vakje weg wanneer deze post nog niet meedoet."
+        value: true
+        on: "true"
+        off: "false"
+  
+          
+    - name: "kop"
+      field:
+        element: "text"
+        label: "Titel"
+        value: ""
+        help:  "Geef de titel op, wordt weergegeven in wat grotere letters"        
+  
+          
+    - name: "foto_bestand"
+      field:
+        element: "text"
+        label: "Naam bestand v/d afbeelding (vergeet het achtervoegsel niet)"
+        value: ""
+        help: "Voor afbeeldingen met een breedte van ongeveer 800px"
+ 
+          
+    - name: "foto_alt"
+      field:
+        element: "text"
+        label: "Alternatieve naam van de afbeelding"
+        value: ""
+        help: "Deze naam wordt soms getoond als alternatief voor de afbeelding"
+  
+        _posts/openingstijd:
+          
+    - name: "tags"
+      field:
+        element: "hidden"
+        value: "openingstijd"
+  
+            
+    - name: "vakantie_tijd"
+      field:
+        element: "checkbox"
+        label: "Vakantie Openingstijden?"
+        help: "Vink dit vakje aan wanneer de openingstijden van de vakantie gelden"
+        value: false
+        on: "true"
+        off: "false"
+            
+  

@@ -1,0 +1,63 @@
+---
+layout: default_helena_10B_git_LINK
+---
+
+{% comment %}
+<!-- ======================================================================= -->
+
+<!-- ======================================================================= -->
+{% endcomment %}
+
+<!-- Voeg variabelen uit de data-directory toe -->
+{% include default_helena_10B_var_LINK.html %}
+
+<script type="text/javascript" src="{{ loc_url_rel }}{{ loc_path_js_glint }}prose_defa_data.js"></script>
+<script type="text/javascript" src="{{ loc_url_rel }}{{ loc_path_js_glint }}prose_defa_biblio.js"></script>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs">
+      <button id="id_generate_01">toon_configuratie</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs">
+      <button id="id_generate_02">toon_bedrijf</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs">
+      <button id="id_generate_03">generate_manifest.json</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs">
+      <button id="id_generate_04">generate_serviceworker.js</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs">
+      <button id="id_generate_05">generate_prose_01.txt</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs">
+      <button id="id_generate_06">generate_404.html</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Bestand kan niet het achtervoegsel krijgen, anders wordt de kode niet getoond.
+  toonInhoud_01("id_generate_01", toon_configuratie(json_configuratie), "toon_configuratie.txt");
+  toonInhoud_01("id_generate_02", toon_bedrijf(json_bedrijf), "toon_bedrijf.txt");
+  toonInhoud_01("id_generate_03", generate_manifest_01(json_configuratie), "manifest.json");
+  toonInhoud_01("id_generate_04", generate_serviceworker_01(json_configuratie), "serviceworker.js");
+  toonInhoud_01("id_generate_05", generate_prose_01(json_configuratie), "_prose.yml");
+  toonInhoud_01("id_generate_06", generate_404_01(json_configuratie), "404.txt");
+</script>
+
+{% comment %}
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+{% endcomment %}

@@ -56,10 +56,12 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.5/lodash.js" type="text/javascript"></script>
 
-  <script type="text/javascript" src="js/glint/defa_data_bs4_LINK.js"></script>
-  <script type="text/javascript" src="js/glint/loc_data_lavinia_01_git.js"></script>
-  <script type="text/javascript" src="js/glint/defa_biblio_bs4_LINK.js"></script>
-  <script type="text/javascript" src="js/glint/loc_biblio_lavinia_01_git.js"></script>
+  <script type="text/javascript" src="js/glint/defa_data_bs4.js"></script>
+  <script type="text/javascript" src="js/glint/loc_data_quasimobi.js"></script>
+  <script type="text/javascript" src="js/glint/defa_biblio_bs4.js"></script>
+  <script type="text/javascript" src="js/glint/athena_biblio_bs4.js"></script>
+  <script type="text/javascript" src="js/glint/lavinia_biblio_bs4.js"></script>
+  <script type="text/javascript" src="js/glint/loc_biblio_quasimobi.js"></script>
 
 
 
@@ -129,23 +131,29 @@
 </div>
 
 <script>
-  /* Kode voor de carousel die uiteindelijk op Github staat.
-     Voor documentatie zie bij map Techniek: jekyll_backend.txt */
-  render_skelet_xxll_image("id_carousel_athena_0107");
-  /* Afhankelijk van de waarde json_configuratie.glint_github_upload_yes
-     wordt bij true dooregeven: json_configuratie.glint_github_url_abs+json_configuratie.glint_path_json
-     OF bij false full_path_abs_json
+  /* 
+    Kode voor de carousel die uiteindelijk op Github staat.
+    Voor documentatie zie bij map Techniek: jekyll_backend.txt
+    render_skelet_xxll_image("id_carousel_athena_0107");     
   */
+
+
+  /*
+    Afhankelijk van de waarde json_configuratie.glint_github_upload_yes
+    wordt bij true doorgegeven: json_configuratie.glint_github_url_abs+json_configuratie.glint_path_json
+    OF bij false full_path_abs_json
+  */
+
   let loc_url_json = get_github_url_01();
   get_github_json_01(loc_url_json+"carousels_01.json", function(error, data) {
     if (error) {
       log_error_01("get_github_json_01", error);
     } else {
       var tpl_config_0107    = json_config_carousel_github_01;
-      var snip_items_0107    = snip_carousel_athena_51B_items_01(data, full_path_rel_media);
-      var snip_controls_0107 = snip_carousel_athena_51B_controls(tpl_config_0107);
-      var tpl_carousel_0107  = tpl_carousel_athena_51B(tpl_config_0107, data, snip_items_0107, snip_controls_0107);
-      render_tpl_01("id_carousel_athena_0107", tpl_carousel_0107);
+      var snip_items_0107    = snip_carousel_athena_51G_items_01(data, full_path_rel_media);
+      var snip_controls_0107    = snip_carousel_athena_51G_controls(tpl_config_0107);
+      var render_carousel_0107  = tpl_carousel_athena_51G(tpl_config_0107, data, snip_items_0107, snip_controls_0107);
+      render_tpl_01("id_carousel_athena_0107", render_carousel_0107);
     }
   });
 </script>

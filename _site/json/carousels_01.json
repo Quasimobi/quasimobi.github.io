@@ -1,59 +1,34 @@
 {
-  "fotos": [
+  "carousels": [
     
       { 
-        "foto_bestand": "slide-12.jpg",
-        "foto_alt":     "alt van Jaap",
-        "tekst":        "",
-        "sterren":      "",
-        "url":          "/2019/01/22/jaap.html",
-        "content":      "<h2 id='a-new-post'>A New Post</h2><p>Enter text in <a href='http://daringfireball.net/projects/markdown/'>Markdown</a>. Use the toolbar above, or click the <strong>?</strong> button for formatting help.</p>"    
-      } ,
-    
-      { 
-        "foto_bestand": "slide-13.jpg",
-        "foto_alt":     "bolle jaap",
-        "tekst":        "",
-        "sterren":      "",
-        "url":          "/2019/01/22/bolle.html",
-        "content":      "<h2 id='a-new-post'>A New Post</h2><p>Enter text in <a href='http://daringfireball.net/projects/markdown/'>Markdown</a>. Use the toolbar above, or click the <strong>?</strong> button for formatting help.</p>"    
-      } ,
-    
-      { 
-        "foto_bestand": "slide-11.jpg",
+        "foto_bestand": "werk.jpg",
         "foto_alt":     "&nbsp;",
-        "tekst":        "carousel_01, Nummer vier.",
-        "sterren":      "4",
-        "url":          "/2018/08/04/slide-04.html",
-        "content":      "<p>Titel</p><p>4_Cras justo odio, YYYYYdapibus ac facilisis in, egestas eget quam.</p>"    
-      } ,
-    
-      { 
-        "foto_bestand": "slide-13.jpg",
-        "foto_alt":     "&nbsp;",
-        "tekst":        "nummer 03, It was since a while that I ate that good.",
-        "sterren":      "3,5",
+        "foto_tekst":   "Donec id elit non mi porta gravida at eget metus.",
+        "sterren":      "",
         "url":          "/2018/08/04/slide-03.html",
-        "content":      "<p>###Titel</p><p>3_Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>"    
+        "content":      ""    
       } ,
     
       { 
-        "foto_bestand": "slide-12.jpg",
+        "foto_bestand": "personeel.jpg",
         "foto_alt":     "&nbsp;",
-        "tekst":        "carousel_01, Super enthusiastic about food.",
-        "sterren":      "5",
+        "foto_tekst":   "Nullam id dolor id nibh ultricies vehicula ut id elit.",
+        "sterren":      "",
         "url":          "/2018/08/04/slide-02.html",
-        "content":      "<p>###Titel</p><p>2_Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>"    
+        "content":      ""    
       } ,
     
       { 
-        "foto_bestand": "slide-11.jpg",
+        "foto_bestand": "kantoor.jpg",
         "foto_alt":     "&nbsp;",
-        "tekst":        "carousel_01, So good and super staff.",
-        "sterren":      "4",
+        "foto_tekst":   "Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
+        "sterren":      "",
         "url":          "/2018/08/04/slide-01.html",
-        "content":      "<h2 id='titel'>Titel</h2><p>1_Cras jusXXXXto odio, dapibus ac facilisis in, egestas eget quam.Nog een regel</p>"    
+        "content":      ""    
       } 
     
   ]
 }
+
+

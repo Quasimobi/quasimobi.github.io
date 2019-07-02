@@ -1,0 +1,30 @@
+{% comment %}
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+{% endcomment %}
+
+<div class="wrapper_footer_lavinia_11_01">
+    <div id="id_footer_01"></div>
+    {% raw %}
+    <script>
+        let loc_url_json_02 = get_github_url_01();
+        get_github_json_01(loc_url_json_02+"openingstijd.json", function(error, data) {
+        if (error) {
+          log_error_01("get_github_json_01", error);
+        } else {
+          let json_openings    = loc_block_lavinia_footer_11G_openings_get(data.openingstijd[0].vakantie_tijd);
+          snip_footer_33       = block_lavinia_footer_11G_openings(json_openings);
+          let snip_footer_31   = block_lavinia_footer_11G_adres();
+          let snip_footer_32   = block_lavinia_footer_11G_contact_02();
+          let render_footer_11 = render_footer_lavinia_11G(snip_footer_31, snip_footer_32, snip_footer_33, "contact");
+          render_template_01("id_footer_01", render_footer_11);          
+        }
+    });        
+    </script>
+    {% endraw %}
+</div>
+
+{% comment %}
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+{% endcomment %}

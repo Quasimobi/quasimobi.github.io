@@ -5,6 +5,10 @@ glint_site_testen:                 false
 glint_url_abs:                     "http://127.0.0.1:4857/"
 glint_url_rel:                     ""
 # ==============================================================================
+glint_meta_robots:                 "INDEX, FOLLOW"
+glint_merk_tekst:                  "Glint Mobi websites"
+glint_merk_link:                   "index.html"
+# ==============================================================================
 glint_path_klant_media:            "images/"
 glint_path_tech_media:             "images/"
 glint_path_icons:                  "icons/"

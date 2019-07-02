@@ -1,0 +1,47 @@
+---
+layout: default_helena_10B_LINK
+---
+
+{% comment %}
+<!-- ======================================================================= -->
+
+<!-- ======================================================================= -->
+{% endcomment %}
+
+
+<div class="wrapper_navbar_lavinia_01_01">
+  <div id="id_navbar_lavinia_0103">
+    {% include navbar_lavinia_0103.html %}      
+  </div>
+</div>
+
+
+<!-- ==================< TEMPLATES >======================================== -->  
+<div class="container">
+  <div class="wrapper_blocken_athena_02_01">
+    <div id="id_blocken_athena_0201">
+     </div>
+  </div>
+</div>
+
+{% raw %}
+<script>
+  let loc_url_json = get_github_url_01();
+  get_github_json_01(loc_url_json+"blocken_01.json", function(error, data) {
+  if (error) {
+    log_error_01("get_github_json_01", error);
+  } else {    
+    var render_blocken_athena_0201  = render_blocken_athena_02G(data.blocken);
+    render_template_01("id_blocken_athena_0201", render_blocken_athena_0201);
+    }
+  });
+</script>
+{% endraw %} 
+
+<!-- ==================< FOOTER >=========================================== -->
+{% include loc_footer_11G.html %}
+
+{% comment %}
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+{% endcomment %}
