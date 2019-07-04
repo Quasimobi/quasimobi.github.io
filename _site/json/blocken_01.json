@@ -2,7 +2,15 @@
   "blocken": [
     
       { 
-        "kop":          "Ratione 05",
+        "kop":          "Titel Block 36",
+        "foto_bestand": "lorem_8_klein.jpg",
+        "foto_alt":     "lorem_8_klein.jpg",
+        "url":          "/2019/07/02/block36.html",
+        "tekst":      "<p>Dit is de tekst voor de block</p><p>Dit is extra tekst</p>"    
+      } ,
+    
+      { 
+        "kop":          "Ratione 05xx",
         "foto_bestand": "slide-12.jpg",
         "foto_alt":     "alt_value",
         "url":          "/2018/08/04/block35.html",
